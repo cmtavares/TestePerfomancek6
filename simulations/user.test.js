@@ -27,5 +27,4 @@ export default function () {
   group('list users', () => {
     user.list(login.getToken())
   })
-
 }
